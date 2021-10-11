@@ -1,0 +1,89 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //zad1
+        System.out.println(31 + 28 + 31);
+        //zad2
+        int zad2 = 0;
+        for (int i = 1; i < 11; i++) {
+            zad2 += i;
+        }
+        System.out.println(zad2);
+        //zad3
+        int zad3 = 1;
+        for(int j=1; j<11; j++){
+            zad3 *= j;
+        }
+        System.out.println(zad3);
+        //zad4
+        double zad4 = 1000;
+        for(int i=1; i<4; i++)
+        {
+            zad4 = zad4 * 1.06;
+            System.out.println("Saldo konta rok " + i + ":" + zad4);
+        }
+        //zad5
+        System.out.println("+----+");
+        System.out.println("|JAVA|");
+        System.out.println("+----+");
+        //zad6
+        System.out.println("  /////");
+        System.out.println(" +\"\"\"\"\"+");
+        System.out.println("(| o o |)");
+        System.out.println("  | ^ |");
+        System.out.println(" | `-` |");
+        System.out.println(" +-----+");
+        //zad7
+        System.out.println("************   ************   *********          *       ************   ***********   *       *       *         *                 ***********       *       ***********   *        *     ***********    *         *   ************   *     *    *");
+        System.out.println("*              *              *        *        * *      *                   *        *      * *      * *       *                      *           * *           *        *      *      *           *   *         *   *              *    *     *");
+        System.out.println("*              *              *        *       *   *     *                   *        *     *   *     *  *      *                      *          *   *          *        *    *        *           *   *         *   *              *   *      *");
+        System.out.println("*              *              *        *      *     *    *                   *        *    *     *    *   *     *                      *         *     *         *        *  *          *           *   *         *   *              *  *       *");
+        System.out.println("************   ************   ********* *    *********   ************        *        *   *********   *    *    *                      *        *********        *        * *           *           *   *    *    *   ************   * *        *");
+        System.out.println("           *   *              *          *   *       *              *        *        *   *       *   *     *   *                      *        *       *        *        *   *         *           *   *   * *   *              *   *   *      *");
+        System.out.println("           *   *              *          *   *       *              *        *        *   *       *   *      *  *                      *        *       *        *        *     *       *           *   *  *   *  *              *   *    *     *");
+        System.out.println("           *   *              *          *   *       *              *        *        *   *       *   *       * *                      *        *       *        *        *       *     *           *   * *     * *              *   *     *    *");
+        System.out.println("************   ************   ***********    *       *   ************        *        *   *       *   *         *                      *        *       *        *        *         *    ***********    *         *   ************   *      *   *");
+        //zad8
+        System.out.println("   +");
+        System.out.println("  + +");
+        System.out.println(" +   +");
+        System.out.println("+-----+");
+        System.out.println("| .-. |");
+        System.out.println("| | | |");
+        System.out.println("+_+_+_+");
+        //zad9
+        System.out.println(" /\\_/\\       -----");
+        System.out.println("( ‘ ’ )    / Hello \\");
+        System.out.println("(  -  )   <  Junior |");
+        System.out.println(" | | |     \\ Coder!/");
+        System.out.println("(__|__)      ----- ");
+        //zad10
+        System.out.println("Na skraju jutra");
+        System.out.println("Elizjum");
+        System.out.println("Władca Pierścieni");
+        //zad11
+        System.out.println("A sio, a sio, kurki,");
+        System.out.println("Do waszej komórki,");
+        System.out.println("Obłożę wam nóżki");
+        System.out.println("Listkami z pietruszki.");
+        //zad12
+        System.out.println("*   *   *   *   *   *   =============================");
+        System.out.println("  *   *   *   *   *     =============================");
+        System.out.println("*   *   *   *   *   *   =============================");
+        System.out.println("  *   *   *   *   *     =============================");
+        System.out.println("*   *   *   *   *   *   =============================");
+        System.out.println("  *   *   *   *   *     =============================");
+        System.out.println("*   *   *   *   *   *   =============================");
+        System.out.println("  *   *   *   *   *     =============================");
+        System.out.println("*   *   *   *   *   *   =============================");
+        System.out.println("=====================================================");
+        System.out.println("=====================================================");
+        System.out.println("=====================================================");
+        System.out.println("=====================================================");
+        System.out.println("=====================================================");
+        System.out.println("=====================================================");
+        System.out.println("=====================================================");
+    }
+}
