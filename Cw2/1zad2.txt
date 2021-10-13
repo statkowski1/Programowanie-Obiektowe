@@ -1,0 +1,25 @@
+package com.company;
+import java.lang.Math;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Podaj ilość wsprowadzanych liczb: ");
+        Scanner scan1 = new Scanner(System.in);
+        int n = scan1.nextInt();
+        double[] tablica = new double[n];
+        for(int i=1; i<n+1; i++)
+        {
+            System.out.println("Podaj liczbę " + i + " :");
+            Scanner scan2 = new Scanner(System.in);
+            double liczba = scan2.nextDouble();
+            tablica[i-1] = liczba;
+        }
+        for(int j=1; j<n; j++)
+        {
+            System.out.print(tablica[j] + ", ");
+        }
+        System.out.print(tablica[0]);
+    }
+}

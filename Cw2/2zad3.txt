@@ -1,0 +1,36 @@
+package com.company;
+import java.lang.Math;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Podaj ilość wsprowadzanych liczb: ");
+        Scanner scan1 = new Scanner(System.in);
+        int n = scan1.nextInt();
+        int dodatnie = 0;
+        int ujemne = 0;
+        int zera = 0;
+        for(int i=1; i<n+1; i++)
+        {
+            System.out.println("Podaj liczbę " + i + ": ");
+            Scanner scan2 = new Scanner(System.in);
+            double liczba = scan2.nextDouble();
+            if(liczba>0)
+            {
+                dodatnie += 1;
+            }
+            if(liczba==0)
+            {
+                zera += 1;
+            }
+            if(liczba<0)
+            {
+                ujemne += 1;
+            }
+        }
+        System.out.println("Ilośc liczb dodatnich: " + dodatnie);
+        System.out.println("Ilośc zer: " + zera);
+        System.out.println("Ilośc liczb ujemnych: " + ujemne);
+    }
+}
